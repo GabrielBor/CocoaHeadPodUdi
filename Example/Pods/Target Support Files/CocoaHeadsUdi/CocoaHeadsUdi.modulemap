@@ -1,0 +1,6 @@
+framework module CocoaHeadsUdi {
+  umbrella header "CocoaHeadsUdi-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'CocoaHeadsUdi'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CocoaHeadsUdi.'
+  s.summary          = 'Batatinha 123'
+  s.swift_version    = '4.0'
+  s.source_files     = '**/*.swift'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +23,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/gabriel_borges.13@hotmail.com/CocoaHeadsUdi'
+  s.homepage         = 'https://github.com/GabrielBor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gabriel_borges.13@hotmail.com' => 'gabriel_borges.13@hotmail.com' }
-  s.source           = { :git => 'https://github.com/gabriel_borges.13@hotmail.com/CocoaHeadsUdi.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GabrielBor/Hawaianos.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

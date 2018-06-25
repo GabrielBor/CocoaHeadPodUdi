@@ -1,0 +1,27 @@
+PODS:
+  - CocoaHeadsUdi (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CocoaHeadsUdi (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CocoaHeadsUdi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaHeadsUdi: bd4255379425edbbd91c4900481e1f3d7ffa388c
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 587aa280c82ccd360ce687965fe5264a403c17af
+
+COCOAPODS: 1.5.3
